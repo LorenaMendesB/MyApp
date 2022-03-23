@@ -1,11 +1,12 @@
-import { StatusBar, View, Text } from 'react-native';
+import { StatusBar, View, Text, TextInput } from 'react-native';
 import React from 'react';
 import {styles} from './styles'
 export function Home() {
   return (
     <SefeAreaView style={
       styles.container}>
-      <Text style={styles.text}> TELA TESTE!!! </Text>
+      <Text style={styles.text}> Ola, Lorena</Text>
+    <TextInput style={ styles.input}/>
     <StatusBar 
       barStyle='light-content'
       backgroundColor='#121015' 
