@@ -13,3 +13,5 @@ export function Home() {
   </SefeAreaView>
   );
 }
+
+// SafeAreaview evita que no ios o conteudo da tela fique por cima da barra de status.
