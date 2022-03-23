@@ -1,16 +1,18 @@
+import { StatusBar, View, Text } from 'react-native';
 import React from 'react';
-import { SafeAreaView, Text , TextInput ,
- TouchbleOpacity} from 'react-native';
-
-import { styles } from './styles';
 
 export function Home() {
   return (
-    <SafeAreaView style={styles.container} >
-      <Text style={styles.text}>
-        Lorena Mendes Barbosa!
-      </Text>
-
-    </SafeAreaView>
+    <View style={{
+      flex:1,
+      alignItems: 'center',
+      justifyContenet: 'center'
+    }}>
+      <Text style={{fontSize: 25}}> TELA TESTE!!! </Text>
+    <StatusBar 
+      barStyle='light-content'
+      backgroundColor='#121015' 
+    />
+  </View>
   );
 }
